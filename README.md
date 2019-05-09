@@ -1,10 +1,12 @@
 # getamis
-##syntax#
+## Overview
+Script that will return YAML formated components to include in your Cloudformation Template. By knowing the name of the AMI from one region lookup, you can get the AMI id for all regions.
+## Syntax #
  ./getamis.sh *NAME OF AMI*
 
-##example##
+## Example
  ./getamis.sh "cisco-CSR-.16.09.01-BYOL-HVM*
-##Returns##
+## Returns
 
 'ap-south-1':      
  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; AMI:  "ami-0bde53dcc89863774"  
